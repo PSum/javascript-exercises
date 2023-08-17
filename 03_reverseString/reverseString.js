@@ -1,5 +1,5 @@
 const reverseString = function(word) {
-    length = word.length;
+    let length = word.length;
     let output = "";
     console.log(output)
     for (let i = 0; i < word.length; i++) {
