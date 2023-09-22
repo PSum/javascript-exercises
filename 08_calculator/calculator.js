@@ -27,8 +27,13 @@ const power = function(a, b) {
 
 };
 
-const factorial = function() {
-	
+const factorial = function(value) {
+  let result=1;
+  for(let i = 1; i <= value; i++){
+    result = result * i;
+    console.log(i)
+  }
+	return result;
 };
 
 // Do not edit below this line
@@ -41,4 +46,5 @@ module.exports = {
   factorial
 };
 
-console.log(multiply([1,2,3,4,5]));
+
+factorial(4);
